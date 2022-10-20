@@ -46,22 +46,51 @@ namespace TaskApp.Controller
                         if (tmonth == 4)
                         {
                             tmonth += 1;
-                            tday = 0;
+                            if(i==dayss)
+                            {
+                                tday = 1;
+                            }
+                            else
+                            {
+                                tday = 0;
+                            }
+                            
                         }
                         else if (tmonth == 6)
                         {
                             tmonth += 1;
-                            tday = 0;
+                            if (i == dayss)
+                            {
+                                tday = 1;
+                            }
+                            else
+                            {
+                                tday = 0;
+                            }
                         }
                         else if (tmonth == 9)
                         {
                             tmonth += 1;
-                            tday = 0;
+                            if (i == dayss)
+                            {
+                                tday = 1;
+                            }
+                            else
+                            {
+                                tday = 0;
+                            }
                         }
                         else if (tmonth == 11)
                         {
                             tmonth += 1;
-                            tday = 0;
+                            if (i == dayss)
+                            {
+                                tday = 1;
+                            }
+                            else
+                            {
+                                tday = 0;
+                            }
                         }
 
                     }
@@ -70,37 +99,86 @@ namespace TaskApp.Controller
                         if (tmonth == 1)
                         {
                             tmonth += 1;
-                            tday = 0;
+                            if (i == dayss)
+                            {
+                                tday = 1;
+                            }
+                            else
+                            {
+                                tday = 0;
+                            }
                         }
                         else if (tmonth == 3)
                         {
                             tmonth += 1;
-                            tday = 0;
+                            if (i == dayss)
+                            {
+                                tday = 1;
+                            }
+                            else
+                            {
+                                tday = 0;
+                            }
                         }
                         else if (tmonth == 5)
                         {
                             tmonth += 1;
-                            tday = 0;
+                            if (i == dayss)
+                            {
+                                tday = 1;
+                            }
+                            else
+                            {
+                                tday = 0;
+                            }
                         }
                         else if (tmonth == 7)
                         {
                             tmonth += 1;
-                            tday = 0;
+                            if (i == dayss)
+                            {
+                                tday = 1;
+                            }
+                            else
+                            {
+                                tday = 0;
+                            }
                         }
                         else if (tmonth == 8)
                         {
                             tmonth += 1;
-                            tday = 0;
+                            if (i == dayss)
+                            {
+                                tday = 1;
+                            }
+                            else
+                            {
+                                tday = 0;
+                            }
                         }
                         else if (tmonth == 10)
                         {
                             tmonth += 1;
-                            tday = 0;
+                            if (i == dayss)
+                            {
+                                tday = 1;
+                            }
+                            else
+                            {
+                                tday = 0;
+                            }
                         }
                         else if (tmonth == 12)
                         {
                             tmonth = 1;
-                            tday = 0;
+                            if (i == dayss)
+                            {
+                                tday = 1;
+                            }
+                            else
+                            {
+                                tday = 0;
+                            }
                             tyear += 1;
                         }
                     }
@@ -109,7 +187,14 @@ namespace TaskApp.Controller
                         if (tmonth == 2)
                         {
                             tmonth += 1;
-                            tday = 0;
+                            if (i == dayss)
+                            {
+                                tday = 1;
+                            }
+                            else
+                            {
+                                tday = 0;
+                            }
                         }
                     }
                     else if (tday == 28)
@@ -117,7 +202,14 @@ namespace TaskApp.Controller
                         if (tmonth == 2)
                         {
                             tmonth += 1;
-                            tday = 0;
+                            if (i == dayss)
+                            {
+                                tday = 1;
+                            }
+                            else
+                            {
+                                tday = 0;
+                            }
                         }
                     }
 

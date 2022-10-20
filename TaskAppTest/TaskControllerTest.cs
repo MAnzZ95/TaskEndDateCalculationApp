@@ -72,7 +72,7 @@ namespace TaskAppTest
 
             //Assert
             //Expected value is must change, because if date empty I consider act as today date
-            Assert.Equal("2022-10-28", endDate);
+            Assert.Equal("2022-11-1", endDate);
 
         }
 

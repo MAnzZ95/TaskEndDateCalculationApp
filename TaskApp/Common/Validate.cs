@@ -17,15 +17,17 @@ namespace TaskApp.Common
             {
                 var regex = new Regex(@"^\d{4}-((0\d)|\d|(1[012]))-(([012]\d|\d)|3[01])$");
                 var nowDate = DateTime.Now;
-                var nowYear = nowDate.Year;
-                string[] arrDate = date.Split('-');
-                //var cdate = Convert.ToDateTime(date);
-                var cYear = Convert.ToInt32(arrDate[0]);
-                var cMonth = Convert.ToInt32(arrDate[1]);
-                var cDay = Convert.ToInt32(arrDate[2]);
+                var nowYear = nowDate.Year;               
 
                 if (regex.IsMatch(date))
                 {
+
+                    string[] arrDate = date.Split('-');
+                    //var cdate = Convert.ToDateTime(date);
+                    var cYear = Convert.ToInt32(arrDate[0]);
+                    var cMonth = Convert.ToInt32(arrDate[1]);
+                    var cDay = Convert.ToInt32(arrDate[2]);
+
                     if (cYear == nowYear)
                     {
                         if (cMonth==1)
