@@ -213,8 +213,6 @@ namespace TaskApp.Controller
                         }
                     }
 
-                    string tdate = tyear + "-" + tmonth + "-" + tday;
-                    hd.hDate = tdate;
 
                     //Check the Holyday between time frame
                     foreach (Holyday item in strHolydays)

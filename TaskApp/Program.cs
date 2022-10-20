@@ -72,7 +72,7 @@ switch (Convert.ToInt32(option))
     case 2:
         Console.WriteLine();
         Console.WriteLine("--Your Task end date is calculating from Today...--");
-        Console.Write("* Please Enter Howmany dates which you want to complete the Task");
+        Console.Write("* Please Enter Howmany dates which you want to complete the Task : ");
         days = Console.ReadLine();
         isValidDates = vd.IsValidNumberofDays(days);
         DateTime defaultDate = new DateTime();
